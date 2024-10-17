@@ -1,3 +1,6 @@
+'''Đoạn code này có tác dụng khi bạn tạo file google sheet 
+   và đoạn code sẽ theo dõi được tình trạng thông tin trên file google sheet đó.
+   '''
 import time
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build

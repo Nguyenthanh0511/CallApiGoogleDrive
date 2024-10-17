@@ -2,7 +2,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.oauth2.credentials import Credentials
 
 # Thay thế đường dẫn đến file JSON của bạn
-CLIENT_SECRET_FILE = './client_secret_1067445661075-qvmk4s6iqb9as91enokc2tqlqr43d574.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = 'path/to/your/client_secret.json'
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 
 # Tạo flow OAuth2

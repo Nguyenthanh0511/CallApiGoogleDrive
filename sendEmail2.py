@@ -1,3 +1,12 @@
+'''Đoạn code này có tác dụng khi bạn tạo file google sheet 
+   và đoạn code sẽ theo dõi được tình trạng thông tin trên file google sheet đó.
+   Và có tích hợp auto gửi email cho user điền thông tin vào file googlet sheet.
+   Bạn cần lên ứng dụmg quản lý tài khoản mật khẩu google và họ sẽ cấp cho mật khẩu của ứng dụng.
+   Để bạn không cần nhập mật khẩu thật. 
+   Đoạn code này còn đang bị lỗi ở việc gửi email.
+   Bạn có thể xem và tham khảo đóng góp.
+   Thành xin cảm ơn.
+   '''
 import os
 import time
 import smtplib
@@ -9,7 +18,7 @@ from email.mime.text import MIMEText
 # Cập nhật thông tin đăng nhập của bạn ở đây
 def send_email_notification(subject, message, to_email):
     from_email = "nguyentrungthanhdev@gmail.com"  # Địa chỉ email của bạn
-    password = "bqcd ijeq bvaq exkj"  # Mật khẩu ứng dụng của bạn (thay thế mật khẩu của bạn ở đây)
+    password = "bqcd ijeq "  # Mật khẩu ứng dụng của bạn (thay thế mật khẩu của bạn ở đây)
 
     # Tạo đối tượng message
     msg = MIMEMultipart()
